@@ -1,0 +1,38 @@
+/* body */
+
+body {
+  display: inline-block;
+  flex-direction: column;
+}
+
+.deco-title {
+  color: red;
+  font-size: 150%;
+}
+
+/* header */
+
+/* title */
+
+header {
+  width: 80vw;
+  margin: 10vh;
+  border-radius: 10vh;
+  background-color: rgb(241, 241, 241);
+  text-align: center;
+}
+
+header h1 {
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+  margin-bottom: 10vh;
+  margin-top: 4vh;
+  font-size: 10vh;
+}
+
+/* main */
+
+main div {
+  display: flex;
+  flex-direction: column;
+ text-align: center;
+}
