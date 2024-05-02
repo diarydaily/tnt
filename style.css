@@ -1,9 +1,14 @@
 /* body */
 
 body {
-  display: inline-block;
-  flex-direction: column;
+  font-family: "sans-serif", serif;
+  display: flex;
   text-align: center;
+}
+
+.main {
+  width: 70vw;
+  margin: 0 5vw;
 }
 
 .deco-title {
@@ -16,15 +21,12 @@ body {
 /* title */
 
 header {
-  margin: 10vw 0 0 10vw;
-  width: 70vw;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
   border-radius: 10vh;
   background: #f1e2be;
-  text-align: center;
 }
 
 header h1 {
-  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
   margin-bottom: 10vh;
   margin-top: 4vh;
   font-size: 10vh;
@@ -38,24 +40,42 @@ header img {
 /* main */
 
 .elements {
-  border-radius: 10vh;
+  border-radius: 3vh;
   border-color: #d3c1af;
   border-style: solid;
-  border-width: 3vh;
+  border-width: 1vw;
   border-radius: 2vh;
   background: #f1e2be;
-  width: 70vw;
-  margin: 10vw 0 0 10vw ;
-
+  margin-top: 10vh;
 }
 
-main .summary img {
+article .summary {
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+
+article .summary img {
+  padding-top: 5vh;
   width: 75%;
   height: 75%;
 }
 
-main .link {
-  display: flex;
-  flex-direction: column;
+article .link {
   padding: 10vh 0;
+}
+
+/* aside */
+
+aside {
+  background-color: ghostwhite;
+  opacity: 90%;
+  margin-top: 10vh;
+  padding-top: 10vh;
+  width: 20vw;
+  border-radius: 5vh;
+}
+
+aside img {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 3vw;
 }
